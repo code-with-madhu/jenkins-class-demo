@@ -4,7 +4,7 @@ pipeline {
     stage('Git Checkout') {
       steps {
         git(url: 'https://github.com/code-with-madhu/simple-java-maven-app.git', branch: 'main')
-        echo 'This is from build checkout'
+        echo 'This is from build checkouts'
       }
     }
 
